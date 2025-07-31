@@ -1,0 +1,27 @@
+{
+  "name": "backend-restful-server-nodejs-zero",
+  "version": "1.0.0",
+  "description": "App ExpressJS",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xuanhiepwork/Backend-RESTFul-Server-NodeJS-zero.git"
+  },
+  "keywords": [
+    "nodejs",
+    "react"
+  ],
+  "author": "XuanHiep",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xuanhiepwork/Backend-RESTFul-Server-NodeJS-zero/issues"
+  },
+  "homepage": "https://github.com/xuanhiepwork/Backend-RESTFul-Server-NodeJS-zero#readme",
+  "dependencies": {
+    "express": "4.18.2"
+  }
+}
