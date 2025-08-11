@@ -69,7 +69,7 @@ node '[name].js - Đường link tới file bạn muốn chạy'
 npm run start
 ```
 
-# Thư viện
+# Thư viện .
 ```
 npm install --save-exact ejs@3.1.8
 ```
