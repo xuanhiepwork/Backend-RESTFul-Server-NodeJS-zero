@@ -82,4 +82,4 @@ npm install --save-exact dotenv@16.0.3
 npm install --save-dev nodemon@2.0.20
 ```
 
-### Link: #19 - https://www.youtube.com/watch?v=fajb0YOInaw&list=PLncHg6Kn2JT4smWdJceM0bDg4YUF3yqLu&index=19 - 00:00
+### Link: #24 - https://www.youtube.com/watch?v=VCyPME-weuE&list=PLncHg6Kn2JT4smWdJceM0bDg4YUF3yqLu&index=24 - 00:45
