@@ -82,4 +82,63 @@ npm install --save-exact dotenv@16.0.3
 npm install --save-dev nodemon@2.0.20
 ```
 
-### Link: #24 - https://www.youtube.com/watch?v=VCyPME-weuE&list=PLncHg6Kn2JT4smWdJceM0bDg4YUF3yqLu&index=24 - 10:00
+
+-------------------------------
+# Tải docker desktop
+# Tải DBeaver
+```
+https://dbeaver.io/download/
+```
+
+## Chạycâu lệnh ở file chứa mysql:
+```
+docker compose -f mysql.yml -p nodejs-sql up -d 
+-f: filename 
+-p: projectname 
+-d : detach,runasbackground 
+```
+# Tải MySQL (hình con cá heo)
+
+
+## Cách dùng
+```
+Chạy docker lên trước
+chạy con cá heo sau
+```
+
+# Cài thư viện "mysql2" không phải là  "mysql"
+```
+[npm install --save-exact mysql2@2.3.3 ](https://www.npmjs.com/package/mysql2)
+```
+```
+npm install --save-exact mysql2@2.3.3 
+```
+
+-------------------------------
+# Chọn version của thư viện
+
+## Kiểm tra version
+```
+node -v
+```
+
+## Kiểm tra danh sách version
+```
+nvm list
+```
+
+## Chọn version sử dụng
+```
+nvm use 14.17.0
+```
+
+-------------------------------
+
+# Database
+```
+host:
+username:root
+pass:123456
+```
+
+### Link: #30 - https://www.youtube.com/watch?v=FWM4a3ecVNs&list=PLncHg6Kn2JT4smWdJceM0bDg4YUF3yqLu&index=31 - 14:51
