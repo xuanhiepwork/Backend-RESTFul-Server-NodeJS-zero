@@ -1,4 +1,8 @@
 
+# Sổ tay ghi chú
+```
+https://docs.google.com/document/d/16zvbayXIKGOHOUr0jzLkFNyehv2CuRJaSo2rGdTp3Gw/edit?tab=t.0
+```
 
 # Kết nối git
 ```
@@ -134,11 +138,31 @@ nvm use 14.17.0
 
 -------------------------------
 
-# Database
+# 32.Database
 ```
 host:
 username:root
 pass:123456
 ```
 
-### Link: #30 - https://www.youtube.com/watch?v=FWM4a3ecVNs&list=PLncHg6Kn2JT4smWdJceM0bDg4YUF3yqLu&index=31 - 14:51
+# 33.Connection pool pattern
+```
+https://github.com/sidorares/node-mysql2#using-connection-pools
+```
+
+```
+Giảm thời gian kết nối bằng cách tái sử dụng với những thằng trước đấy
+Bằng cách đóng những thằng không sử dụng nữa
+-> Ứng dụng không bị quá tải, mỗi lần quá tải là nó sẽ restarted lại
+
+Đặt giới hạn connection
+-> Giúp database nó không bị quá tải
+
+Người dùng chấp nhận hệ thống bị chậm, chứ không chấp nhận hệ thống bị quá tải
+
+```
+
+
+
+
+### Link: #33 - https://www.youtube.com/watch?v=FWM4a3ecVNs&list=PLncHg6Kn2JT4smWdJceM0bDg4YUF3yqLu&index=34 - 00:00

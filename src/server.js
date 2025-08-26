@@ -2,7 +2,7 @@ require('dotenv').config();
 const express = require('express');
 const configViewEngine = require('./config/viewEngine');
 const webRoutes = require('./routes/web.js'); // Import the routes
-const mysql = require('mysql2');
+const connection = require('./config/database.js');
 
 const app = express();
 const port = process.env.PORT || 3000; // Default to 3000 if PORT is not set
@@ -15,14 +15,7 @@ configViewEngine(app);
 app.use('/test', webRoutes); //: /test/webRoutes's routes
 
 // test connection
-// create the connection to database
-const connection = mysql.createConnection({
-  host: 'localhost', 
-  port: 3307, // default 3306
-  user: 'root', // default 'empty'
-  password: '123456',
-  database: 'hoidanit'
-});
+
 
 // simple query
 connection.query(
